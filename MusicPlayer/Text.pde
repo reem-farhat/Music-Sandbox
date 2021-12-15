@@ -9,7 +9,7 @@
 PFont font; //Font Type
 int initialSize = 55; //Initial Size
 //Black Ink, see QuitButton Global Variables
-color white=#FFFFFF; //reset INK
+color white=#FFFFFF, black = #000000; //reset INK
 
 void textSetup() {
   //println("Start of Console");

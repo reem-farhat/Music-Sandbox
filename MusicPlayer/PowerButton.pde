@@ -1,4 +1,5 @@
 //Global Variables
+String powerButton = "power";
 color purple=#E35EDC, yellow=#FAF792, resetWhite=#FFFFFF, buttonColour;
 float powerButtonX, powerButtonY, powerButtonWidth, powerButtonHeight;
 //
@@ -20,6 +21,7 @@ void powerButtonDraw() {
     hoverOverButtonFill();
   }
   //Text
+  textCode(powerButton, displayWidth*3/100 , powerButtonX, powerButtonY, powerButtonWidth, powerButtonHeight);
 }//End powerButtonDraw()
 //
 void powerButtonMousePressed() {
