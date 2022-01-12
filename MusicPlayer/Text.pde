@@ -7,7 +7,7 @@
 
 //Global Variables
 PFont font; //Font Type
-int initialSize = 55; //Initial Size
+int initialSize = 25; //Initial Size
 //Black Ink, see QuitButton Global Variables
 color white=#FFFFFF, black = #000000; //reset INK
 
